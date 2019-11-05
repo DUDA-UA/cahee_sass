@@ -1,0 +1,12 @@
+mixin subscribe
+    .subscribe.d-flex.align-items-center#subscribe
+        .container
+                .row
+                    .col-lg-6.col-md-8.col-11
+                        p.subscribe__title Subscribe To Us
+                        p.subscribe__subtitle Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                .row
+                    .col-xl-9
+                        form.subscribe__form(action='', method='GET')
+                            input#email.subscribe__form__input(type="email", name="email", placeholder="Your email address...", required)
+                            input.subscribe__form__btn(type='submit', for='email', value='subscribe') 

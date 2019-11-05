@@ -1,0 +1,24 @@
+mixin nav
+     .nav.d-flex.justify-content-between
+        .col-md-2
+                a.nav__logo
+                        svg.nav__logo__img
+                            use(xlink:href='#icon-logo')
+        .col-xl-6.offset-xl-4.col-lg-8.offset-lg-1.col-md-8.offset-md-0
+                input#navbar.navbar(type="checkbox", name="navbar")
+                label.navbar__label(for='navbar')
+                    i.fas.fa-hamburger
+                    i.fas.fa-times
+                ul.nav__navbar.d-flex.justify-content-between
+                    li.navbar__item
+                        a.navbar__link(href="#home") home
+                    li.navbar__item
+                        a.navbar__link(href="#about") about
+                    li.navbar__item
+                        a.navbar__link(href="#services") services
+                    li.navbar__item
+                        a.navbar__link(href="#gallery") gallery
+                    li.navbar__item
+                        a.navbar__link(href="#blog") blog
+                    li.navbar__item
+                        a.navbar__link(href="#contact") contact
