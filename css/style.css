@@ -3272,7 +3272,7 @@ html {
     max-width: 1200px; } }
 
 .header {
-  background-image: url(../../../dist/img/header@x1.png);
+  background-image: url(../img/header@x1.png);
   background-repeat: no-repeat;
   background-size: 500px;
   background-position: bottom 40% right 20%; }
@@ -3499,7 +3499,7 @@ html {
   transition: 1s; }
 
 .services {
-  background-image: url(../../../dist/img/services@x1.png);
+  background-image: url(../img/services@x1.png);
   background-color: #70bfff;
   background-size: 460px;
   background-repeat: no-repeat;
@@ -3515,10 +3515,10 @@ html {
       background-size: 160px; } }
   @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
     .services {
-      background-image: url(../../../dist/img/services@x2.png); } }
+      background-image: url(../img/services@x2.png); } }
   @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
     .services {
-      background-image: url(../../../dist/img/services@x3.png); } }
+      background-image: url(../img/services@x3.png); } }
   .services__text {
     padding-left: 26px;
     margin-top: -56px; }
@@ -3637,7 +3637,7 @@ html {
 
 .subscribe {
   background-color: #ffff;
-  background-image: url(../../../dist/img/subscribeX1.png);
+  background-image: url(../img/subscribeX1.png);
   background-repeat: no-repeat;
   background-size: 600px;
   background-position: center right 5%;
@@ -3768,11 +3768,11 @@ html {
     -webkit-box-shadow: 0 0 10px black;
     box-shadow: 0 0 10px black; }
   .items__img__smoothies {
-    background-image: url(../../../dist/img/blog/blog1_@1.jpg); }
+    background-image: url(../img/blog/blog1_@1.jpg); }
   .items__img__soup {
-    background-image: url(../../../dist/img/blog/blog2_@1.jpg); }
+    background-image: url(../img/blog/blog2_@1.jpg); }
   .items__img__raspberry {
-    background-image: url(../../../dist/img/blog/blog3_@1.jpg); }
+    background-image: url(../img/blog/blog3_@1.jpg); }
   @media screen and (max-width: 1199px) {
     .items__img {
       margin-top: 20px; } }
@@ -3831,7 +3831,7 @@ html {
   top: 160px; }
 
 .contact {
-  background-image: url(../../../dist/img/contact@x1.jpg);
+  background-image: url(../img/contact@x1.jpg);
   background-repeat: no-repeat;
   background-position: left;
   padding: 90px 0px 90px;
